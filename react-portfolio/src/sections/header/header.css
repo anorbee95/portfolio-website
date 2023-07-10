@@ -1,5 +1,5 @@
 header {
-    margin: 8rem 0;
+    padding: 8rem 0;
     display: grid;
     place-items: center;
     background: var(--color-white);
