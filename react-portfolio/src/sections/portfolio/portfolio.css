@@ -38,13 +38,17 @@
 
 .portfolio__project-image {
     width: 100%;
-    height: fit-content;
-    min-height: 7rem;
+    height: 11rem;
     max-height: 15rem;
     background: var(--color-light);
     border-radius: var(--border-radius-2);
     margin-bottom: 1.5rem;
     overflow: hidden;
+}
+
+.portfolio__project-image img {
+    height: 100%;
+    object-fit: fill;
 }
 
 .portfolio__project p {

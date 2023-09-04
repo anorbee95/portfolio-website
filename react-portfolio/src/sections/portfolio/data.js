@@ -1,93 +1,34 @@
-import Image1 from '../../assets/project1.jpg'
-import Image2 from '../../assets/project2.jpg'
-import Image3 from '../../assets/project3.jpg'
-import Image4 from '../../assets/project4.jpg'
-import Image5 from '../../assets/project5.jpg'
-import Image6 from '../../assets/project6.jpg'
-import Image7 from '../../assets/project7.jpg'
-import Image8 from '../../assets/project8.jpg'
-import Image9 from '../../assets/project9.jpg'
+import Image1 from '../../assets/project1.PNG'
+import Image2 from '../../assets/project2.PNG'
+import Image3 from '../../assets/project1.PNG'
+
 
 const data = [
     {
         id: 1,
-        category: 'uiux',
+        category: 'frontend',
         image: Image1,
-        title: "Project Title One (UIUX)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://demoproject.com',
-        github: 'https://github.com/anorbee95'
+        title: "Kilövés (Frontend)",
+        desc: "Kiloves.hu is my creation—a React-based website that accompanies my unique board game. It enables users to enjoy QR code-accessible mini-games from the board game and offers seamless Stripe payment processing for board game purchases. This project highlights my proficiency in front-end development and e-commerce integration.",
+        demo: 'http://kiloves.hu',
+        github: 'https://github.com/anorbee95/projects/kiloves'
     },
     {
         id: 2,
         category: 'frontend',
         image: Image2,
-        title: "Project Title Two (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://demoproject.com',
-        github: 'https://github.com/anorbee95'
+        title: "EdiPedi (Frontend)",
+        desc: "Edipedi.hu is a visually stunning platform I crafted to spotlight pedicure services provided by a family member. Developed using React, Yarn, Vite, and React Bootstrap, it's a testament to my front-end skills. Stay tuned for an upcoming scheduling system enhancement, making Edipedi.hu a top choice for pedicure enthusiasts.",
+        demo: 'http://edipedi.hu',
+        github: 'https://github.com/anorbee95/projects/edipedi'
     },
     {
         id: 3,
-        category: 'frontend',
+        category: 'fullstack',
         image: Image3,
-        title: "Project Title Three (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://demoproject.com',
-        github: 'https://github.com/anorbee95'
-    },
-    {
-        id: 4,
-        category: 'uiux',
-        image: Image4,
-        title: "Project Title Four (UIUX)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://demoproject.com',
-        github: 'https://github.com/anorbee95'
-    },
-    {
-        id: 5,
-        category: 'uiux',
-        image: Image5,
-        title: "Project Title Five (UIUX)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! ",
-        demo: 'http://demoproject.com',
-        github: 'https://github.com/anorbee95'
-    },
-    {
-        id: 6,
-        category: 'frontend',
-        image: Image6,
-        title: "Project Title Six (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://demoproject.com',
-        github: 'https://github.com/anorbee95'
-    },
-    {
-        id: 7,
-        category: 'frontend',
-        image: Image7,
-        title: "Project Title Seven (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://demoproject.com',
-        github: 'https://github.com/anorbee95'
-    },
-    {
-        id: 8,
-        category: 'backend',
-        image: Image8,
-        title: "Project Title Eight (Backend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://demoproject.com',
-        github: 'https://github.com/anorbee95'
-    },
-    {
-        id: 9,
-        category: 'frontend',
-        image: Image9,
-        title: "Project Title Nine (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://demoproject.com',
+        title: "Project Title Three (Fullstack)",
+        desc: "The Fullstack Webshop is a collaborative triumph—a full-fledged e-commerce platform developed by a team of four. We adeptly managed version control with Git, utilized React, Yarn, Vite, and React Bootstrap for the frontend, and employed Express.js, PostgreSQL, Supabase, and JWT token authentication on the backend.",
+        demo: 'https://fullstack-webshop.web.app/',
         github: 'https://github.com/anorbee95'
     }
 ]
