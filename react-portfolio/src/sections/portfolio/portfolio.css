@@ -38,7 +38,7 @@
 
 .portfolio__project-image {
     width: 100%;
-    height: 11rem;
+    height: 15rem;
     max-height: 15rem;
     background: var(--color-light);
     border-radius: var(--border-radius-2);
@@ -48,11 +48,18 @@
 
 .portfolio__project-image img {
     height: 100%;
-    object-fit: fill;
+    object-fit: cover;
+    object-position: 55% 50%;
+    transition: 0.5s ease-in;
+}
+
+.portfolio__project-image img:hover {
+    transform: scale(1.2);
 }
 
 .portfolio__project p {
     margin: 0.5rem 0 2rem;
+    text-align: justify;
 }
 
 .portfolio__project-cta {
@@ -72,7 +79,7 @@
 
 
 /* MEDIA QUERIES (tablets) */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1320px) {
     .portfolio__projects {
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
